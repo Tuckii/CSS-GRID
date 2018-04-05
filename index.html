@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Maria Rivas | Professional Photographer</title>
+	<meta name="description" content="Photographer, Professional, photos, and more">
+	<meta name="author" content="Cesar Lira">
+	<meta http-equiv="refresh" content="">
+
+	<!-- CSS -->
+	
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- jQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+	<!-- Boostrap-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/css/bootstrapValidator.css" />
+
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+
+</head>
+
+<body>
+	<section id="home">
+		<div class="container-fluid">
+			<div class="wrapper">
+				<div class="row">
+
+					<!--Left column-->
+					<div class="col col-md-6 left">
+						<div class="inner">
+							<div class="row">
+								<div class="col col-md-12">
+									<!--1 div-->
+									<div id="timer">
+										<div id="days"></div>
+										<div id="hours"></div>
+										<div id="minutes"></div>
+										<div id="seconds"></div>
+									</div>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="col col-md-12">
+									<!--2div-->
+									<div class="rg-top height">
+										<div class="pg-cont">
+											<h2 class="pg-text">Maria Jose Rivas Herrera</h2>
+										</div>
+									</div>
+								</div>
+							</div>			
+								<!-- Middle right content-->
+							<div class="row">
+								<div class="col col-md-12">
+									<div class="md-cont ">
+										<div class="line"><hr></div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col col-md-12">
+								<!--Social-->
+									<div class="social-cont height">
+										<div class="social-cont">
+											<ul class="social">
+												<li class="facebook"><a href="#" class="entypo-facebook"></a></li>
+												<li class="instagram"><a href="#" class="entypo-instagrem"></a></li>
+												<li class="twitter"><a href="#" class="entypo-twitter"></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!--Right column-->
+					<div class="col col-md-6 bg"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+<!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+<!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+     <script src="js/height.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/form.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKK3sdwphOxdnMwzUuzLb0PzwIyNWSifs&sensor=false"></script>
+    <script src="js/map.js"></script>	
+
+    <script>
+    	function makeTimer() {
+
+			var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");			
+			endTime = (Date.parse(endTime) / 1000);
+
+			var now = new Date();
+			now = (Date.parse(now) / 1000);
+
+			var timeLeft = endTime - now;
+
+			var days = Math.floor(timeLeft / 86400); 
+			var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+			var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
+			var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+  
+			if (hours < "10") { hours = "0" + hours; }
+			if (minutes < "10") { minutes = "0" + minutes; }
+			if (seconds < "10") { seconds = "0" + seconds; }
+
+			$("#days").html(days + "<span> Days</span>");
+			$("#hours").html(hours + "<span> Hours</span>");
+			$("#minutes").html(minutes + "<span> Minutes</span>");
+			$("#seconds").html(seconds + "<span> Seconds</span>");		
+
+	}
+
+	setInterval(function() { makeTimer(); }, 1000);
+    </script>
+
+</body>
+</html>
