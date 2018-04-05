@@ -15,6 +15,7 @@
 	
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="css/mediaQ.css">
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<!-- jQuery-->
@@ -40,11 +41,13 @@
 							<div class="row">
 								<div class="col col-md-12">
 									<!--1 div-->
-									<div id="timer">
-										<div id="days"></div>
-										<div id="hours"></div>
-										<div id="minutes"></div>
-										<div id="seconds"></div>
+									<div class="timer-cont">
+										<div id="timer">
+											<div id="days"></div>
+											<div id="hours"></div>
+											<div id="minutes"></div>
+											<div id="seconds"></div>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -58,8 +61,9 @@
 										</div>
 									</div>
 								</div>
-							</div>			
-								<!-- Middle right content-->
+							</div>	
+									
+							<!-- Middle right content-->
 							<div class="row">
 								<div class="col col-md-12">
 									<div class="md-cont ">
@@ -122,10 +126,10 @@
 			if (minutes < "10") { minutes = "0" + minutes; }
 			if (seconds < "10") { seconds = "0" + seconds; }
 
-			$("#days").html(days + "<span> Days</span>");
-			$("#hours").html(hours + "<span> Hours</span>");
-			$("#minutes").html(minutes + "<span> Minutes</span>");
-			$("#seconds").html(seconds + "<span> Seconds</span>");		
+			$("#days").html(days + "<span> Dias</span>");
+			$("#hours").html(hours + "<span> Horas</span>");
+			$("#minutes").html(minutes + "<span> Minutos</span>");
+			$("#seconds").html(seconds + "<span> Segundos</span>");		
 
 	}
 
