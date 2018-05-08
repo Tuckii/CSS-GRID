@@ -8,19 +8,23 @@
 	<title>Maria Rivas | Professional Photographer</title>
 	<meta name="description" content="Photographer, Professional, photos, and more">
 	<meta name="author" content="Cesar Lira">
-	<meta http-equiv="refresh" content="">
 
 	<!-- CSS -->
 	
-	
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-	<link rel="stylesheet" type="text/css" href="css/mediaQ.css">
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
+	<link rel="stylesheet" type="text/css" href="css/content.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/nav.css">
+	<link rel="stylesheet" type="text/css" href="css/media-query.css">
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 	<!-- jQuery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 	<!-- Boostrap-->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/css/bootstrapValidator.css" />
@@ -29,112 +33,170 @@
 
 </head>
 
-<body>
-	<section id="home">
-		<div class="container-fluid">
-			<div class="wrapper">
-				<div class="row">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+	<!--Navigation -->
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="nav">
+ 		<div class="container">
+    	    <div class="navbar-header page-scroll">
+   				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+   				<span class="sr-only">Toggle navigation</span>
+       			<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>
+        		<span class="icon-bar"></span>                     
+      			</button>
+      			<p class="navbar-brand page-scroll" href="#"><span style="border-bottom: 2px solid #ff6ca7; font-weight: 700;">Maria</span> <span style="border-bottom: 2px solid #ff6ca7; font-weight: 700;">Rivas</span></p>  
+    		</div>
+    		<div class="collapse navbar-collapse" id="myNavbar">
+    			<ul class="nav navbar-nav navbar-right">
+      				<li class="active"><a href="#page-top">Home</a></li>
+      				<li><a href="portfolio/index.html">Portfolio</a></li>
+     				<li><a href="#">About</a></li>
+     				<li><a href="#">Social</a></li>
+     				<li><a href="contact/index.html">Contact</a></li>
+    			</ul>
+    		</div>
+  		</div>
+	</nav>
+	<!--End Navigation -->
 
-					<!--Left column-->
-					<div class="col col-md-6 left">
-						<div class="inner">
-							<div class="row">
-								<div class="col col-md-12">
-									<!--1 div-->
-									<div class="timer-cont">
-										<div id="timer">
-											<div id="days"></div>
-											<div id="hours"></div>
-											<div id="minutes"></div>
-											<div id="seconds"></div>
-										</div>
-									</div>
-								</div>
-							</div>
+	<!--Home Section-->
+	<section id="home" class="home-section">
+		<div class="container">
+			<h1 class="header-title">ESTILISTA PROFESIONAL</h1>
+			<h2 class="autor">Maria Jose Rivas</h2>
+			<!--Profile Pic-->
+			<img src="images/car.jpg" class="profile">
 
-							<div class="row">
-								<div class="col col-md-12">
-									<!--2div-->
-									<div class="rg-top height">
-										<div class="pg-cont">
-											<h2 class="pg-text">Maria Jose Rivas Herrera</h2>
-										</div>
-									</div>
-								</div>
-							</div>	
-									
-							<!-- Middle right content-->
-							<div class="row">
-								<div class="col col-md-12">
-									<div class="md-cont ">
-										<div class="line"><hr></div>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col col-md-12">
-								<!--Social-->
-									<div class="social-cont height">
-										<div class="social-cont">
-											<ul class="social">
-												<li class="facebook"><a href="#" class="entypo-facebook"></a></li>
-												<li class="instagram"><a href="#" class="entypo-instagrem"></a></li>
-												<li class="twitter"><a href="#" class="entypo-twitter"></a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
+			<div style="font-size: 3em; " class="floating slideDown">
+  				<a href="#portfolio"><i class="fa fa-angle-double-down"></i></a>
+			</div>
 
-					<!--Right column-->
-					<div class="col col-md-6 bg"></div>
+		</div>
+	</section>
+	<!--Middle Section-->
+	<section id="portfolio" class="middle-section content">
+		<div class="row row-eq-height padding">
+			<div class="col-sm-6">
+				<h3>Maria Jose Rivas Herrera</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, eveniet nobis quos ipsa eligendi quam quo dolore quisquam quidem dignissimos, libero, odio sapiente enim amet. Dicta culpa reprehenderit laudantium molestias?
+				</p>
+			</div>
+			<div class="col-sm-6">
+				<div class="row row-eq-height">
+					<div class="portfolio-a"><a href="#home">PORTFOLIO</a></div>
+					<div class="col-sm-8"><img src="images/car.jpg" class="img-responsive"></div>
+					<div class="col-sm-4"><img src="images/car.jpg" class="img-responsive"></div>
+				</div>	
+				<div class="row row-eq-height">
+					<div class="portfolio-a"><a href="#home">PORTFOLIO</a></div>
+					<div class="col-sm-8"><img src="images/car.jpg" class="img-responsive"></div>
+					<div class="col-sm-4"><img src="images/car.jpg" class="img-responsive"></div>
 				</div>
 			</div>
-		</div>
+	</section>
+	<!--End Middle Section-->
+
+
+	
+	<!--Social Section footer-->
+	<section id="contact" class="footer-section">
+		<footer class="footer-1 ">
+			<div class="container-fluid footer">
+				<!-- Social first row-->
+				<div class="row-fluid social">
+					<div class="col col-md-3 social-footer">
+						<a href="#"><i class="fa fa-facebook-square" style="font-size: 50px;"></i></a>
+					</div>
+					<div class="col col-md-3 social-footer">
+						<a href="#"><i class="fa fa-twitter " style="font-size: 50px;"></i></a>
+					</div>
+					<div class="col col-md-3 social-footer">
+						<a href="#"><i class="fa fa-instagram " style="font-size: 50px;"></i></a>
+					</div>
+					<div class="col col-md-3 social-footer">
+						<a href="#"><i class="fa fa-youtube " style="font-size: 50px;"></i></a>
+					</div>
+				</div>
+
+				<!--Sponsors row-->
+				<div class="row-fluid">
+					<div class="sponsors-footer">
+						<div class="footer-sponsor-text">
+							<h1 class="sponsors-text">PATROCINADORES OFICIALES</h1>
+						</div>
+						<div class="sponsors">
+							<div class="col col-md-4 col-sm-3 border">
+								<a href="#"><img src="images/marykay_logo.png" style="max-height: inherit; height: inherit; max-width: 200px;" class="grow img-responsive"></a>
+							</div>
+							<div  class="col col-md-4 col-sm-3 border">
+								<a href="#"><img src="images/sephora.jpeg" style="max-height: inherit; height: inherit; max-width: 200px;" class="grow img-responsive"></a>
+							</div>
+							<div  class="col col-md-4 col-sm-3 border">
+								<a href="#"><img src="images/urbandecay_logo.png" style="max-height: auto; height: auto; max-width: 200px;" class="grow img-responsive"></a>
+							</div>
+							<div  class="col col-md-4 col-sm-3">
+								<a href="#"><img src="images/nyx.png" style="max-height: auto; height: auto; max-width: 200px;" class="grow img-responsive"></a>
+							</div>
+						</div>
+						<div class="copyright-text">
+							<p>Todos los Derechos Reservados &copy;<a href="../index.html" class="copyright"> Maria Jose Rivas Herrera</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</section>
 
 
+
 <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+	<script src="javascripts/smooth-scroll.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
 <!-- Scrolling Nav JavaScript -->
-    <script src="js/jquery.easing.min.js"></script>
-     <script src="js/height.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-    <script src="js/form.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKK3sdwphOxdnMwzUuzLb0PzwIyNWSifs&sensor=false"></script>
-    <script src="js/map.js"></script>	
+    <script src="javascripts/jquery.easing.min.js"></script>
+    <script src="javascripts/scrolling-nav.js"></script>
+            <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKK3sdwphOxdnMwzUuzLb0PzwIyNWSifs&sensor=false"></script>
+
+    <script src="javascripts/map.js"></script>
 
     <script>
-    	function makeTimer() {
+    	window.sr = ScrollReveal();
+		sr.reveal('.header-title' , {
+    		duration: 2000,
+    		origin: 'top',
+    		distance: '200px'
+    	})
 
-			var endTime = new Date("10 May 2018 9:56:00 GMT+01:00");			
-			endTime = (Date.parse(endTime) / 1000);
+    	sr.reveal('.autor' , {
+    		duration: 2000,
+    		origin: 'bottom',
+    	})
 
-			var now = new Date();
-			now = (Date.parse(now) / 1000);
+    	sr.reveal('.profile' , {
+    		duration: 2000,
+    		origin: 'left',
+    		distance: '300px'
+    	})
 
-			var timeLeft = endTime - now;
+    	sr.reveal('.floating' , {
+    		duration: 2000,
+    		delay: 2000,
+    		origin: 'bottom',
+    	})
 
-			var days = Math.floor(timeLeft / 86400); 
-			var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
-			var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600 )) / 60);
-			var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
-  
-			if (hours < "10") { hours = "0" + hours; }
-			if (minutes < "10") { minutes = "0" + minutes; }
-			if (seconds < "10") { seconds = "0" + seconds; }
+    	sr.reveal('.social' , {
+    		duration: 2800,
+    		origin: 'left',
+    		distance: '200px',
+    		viewFactor: 0.8
+    	})
 
-			$("#days").html(days + "<span> Dias</span>");
-			$("#hours").html(hours + "<span> Horas</span>");
-			$("#minutes").html(minutes + "<span> Minutos</span>");
-			$("#seconds").html(seconds + "<span> Segundos</span>");		
-
-	}
-
-	setInterval(function() { makeTimer(); }, 1000);
+    	sr.reveal('.sponsors-footer' , {
+    		duration: 2800,
+    		origin: 'bottom',
+    		distance: '200px',
+    		viewFactor: 0.8
+    	});
     </script>
-
 </body>
 </html>
