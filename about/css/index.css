@@ -123,13 +123,27 @@ body {
 
 
 
+
+
+
   @media (max-width: 767px){
 
         #home .img-profile img {
-          width:500px;
+          width:350px;
         }
 
         .bottom {
-          
+
+        }
+  }
+
+  @media (max-width: 371px){
+
+        #home .img-profile img {
+          width:250px;
+        }
+
+        .bottom {
+
         }
   }

@@ -57,18 +57,16 @@ and (max-device-width: 1024px) {
 }
 
 /* Ipad Pro Media Query*/
-@media only screen 
-and (min-device-width : 1024px) 
+@media only screen
+and (min-device-width : 1024px)
 and (max-device-width : 1366px) {
   /*Edit if necessary for upcoming gallery*/
 }
 
 @media only screen and (max-width: 767px) {
   .header-title {letter-spacing: .1em;}
-  img.profile {width: 20em; height: 20em;}
+  img.profile {width: 18em; height: 18em;}
   footer {position:relative;bottom:0;}
   iframe { height: 31.5vh; }
 
 }
-
-
