@@ -19,4 +19,6 @@
     .top-nav-collapse {
         padding: 0;
     }
+
+    #nav .container {padding-right: 0;}
 }

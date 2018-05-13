@@ -6,8 +6,8 @@
 .nav > li { padding-left: 10px; padding-top: 5px;}
 .navbar-default .navbar-brand{font-size: 40px;color: #000;}
 .navbar-default .navbar-nav > li > a {color: #000;font-size: 16px;font-family: sans-serif; border-radius: 3em;}
-.navbar-default .navbar-nav > li > a:hover {background-color: #ff6ca77d; cursor: pointer;}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,.navbar-default .navbar-nav > .active > a:focus {border-radius: 3em; color: #555; background-color: #ff6ca7;}
+.navbar-default .navbar-nav > li > a:hover {background-color: #e8c1b4; cursor: pointer;}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover,.navbar-default .navbar-nav > .active > a:focus {border-radius: 3em; color: #fff; background-color: #442c2e;}
 
 @media(min-width:767px) {
     .navbar {

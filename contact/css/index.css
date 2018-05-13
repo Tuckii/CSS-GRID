@@ -8,7 +8,7 @@ iframe {display: block; background: #000; border:none;height: 100vh;width: 100%;
 hr {width: 100%;height: 5px;margin-left: auto;margin-right: auto;background-color:#b73f41;color:#b73f41;border: 0 none;margin-top: 5px;margin-bottom: 0;}
 
 
-body {background-image: url("../images/bg.jpg");  background-repeat: no-repeat; background-position: 50% 50%;}
+body {background-image: url("../images/bg.jpg");  background-repeat: no-repeat; background-position: 50% 50%; background-size: cover;}
 .contact-social i.fa {display: inline-block; color: #fff;}
 .contact-social i.fa:hover {color: #f3f3f3;}
 
