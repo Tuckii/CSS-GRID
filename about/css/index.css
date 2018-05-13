@@ -120,3 +120,16 @@ body {
   text-align: left;
   line-height: 2.1em;
   }
+
+
+
+  @media (max-width: 767px){
+
+        #home .img-profile img {
+          width:500px;
+        }
+
+        .bottom {
+          
+        }
+  }
