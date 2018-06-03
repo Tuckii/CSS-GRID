@@ -1,0 +1,74 @@
+@media only screen and (min-width: 494px) and (max-width: 650px) {
+
+  #about-section .fa,
+  #skills-section .fa,
+  #education-section .fa,
+  #project-section .fa {
+    font-size: 50px;
+  }
+
+#home-section {
+  min-height: 500px;
+}
+
+#home-section .home {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+
+.home h1 {
+  font-size: 44px;
+}
+
+
+#home-section .home-sec h2 {
+  font-size: 24px;
+}
+
+#home-section .home-sec h5 {
+  font-size: 18px;
+}
+
+
+/*ABOUT*/
+
+
+#about-section .about-desc h3 {
+  font-size: 30px;
+}
+
+#about-section .about-desc p {
+  font-size: 19px;
+}
+
+#about-section .name h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+
+/*END ABOUT*/
+
+/*SKILLS*/
+
+#skills-section .name h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#skills-section .contentContainer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/*END SKILLS*/
+
+
+#education-section .name h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+}

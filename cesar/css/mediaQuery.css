@@ -1,0 +1,84 @@
+@media only screen and (min-width: 650px) and (max-width: 1024px) {
+
+
+  #home-section {
+    min-height: 500px;
+  }
+
+  #home-section .home {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  #home-section .home-sec h5 {
+    font-size: 20px;
+  }
+
+
+  .name h3 {
+    font-size: 25px;
+  }
+
+  .name .fa {
+    font-size: 50px;
+    padding-top: 5px;
+  }
+
+  #about-section .grid {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 10px;
+  }
+
+  #about-section .about-desc h3 {
+    font-size: 25px;
+  }
+
+  #about-section .about-desc p {
+    font-size: 15px;
+  }
+
+  #skills-section .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  #skills-section .name {
+    grid-column: 1 / span 2;
+    text-align: center;
+  }
+
+  #education-section .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  #education-section .name {
+    grid-column: 1 / span 2;
+    text-align: center;
+  }
+
+  /*FOOTER*/
+  #footer-section .grid {
+    display: grid;
+    grid-gap: 10px;
+    text-align: center;
+  }
+
+  .big .fa {
+    font-size: 7em;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  #footer-section .footer-text h5 {
+    font-size: 30px;
+  }
+
+  #footer-section .copyright h5 {
+    font-size: 30px;
+  }
+}
