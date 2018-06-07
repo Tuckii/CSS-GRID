@@ -14,6 +14,8 @@
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/mediaQuery.css">
   <link rel="stylesheet" type="text/css" href="css/mediaQuery400px.css">
+  <link rel="stylesheet" type="text/css" href="css/SmMediaQuery.css">
+  <link rel="stylesheet" type="text/css" href="css/XLMediaQuery.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
 
@@ -22,6 +24,7 @@
   <!-- jQuery-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
   <!-- Boostrap-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -39,7 +42,7 @@
   <!--Header-->
   <section id="home-section">
     <div class="home section">
-        <h1>CESAR LIRA</h1>
+        <h1 class="title">CESAR LIRA</h1>
         <div class="home-sec">
           <h2><span class="bot-border-white">FR</span>O<span class="dif-color">NT-END DEVEL</span>OPER<h2>
           <h5>I enjoy making my developing ideas come to live<h5>
@@ -230,6 +233,60 @@
 </div>
 <!--End of Wrapper-->
 
+
+
+
+<!-- Scrolling Reveal JavaScript -->
+
+
+    <script>
+      window.sr = ScrollReveal();
+
+      sr.reveal('.title', {
+        duration: 2000,
+        origin: 'top',
+        distance: '10px'
+      })
+
+      sr.reveal('.home-sec', {
+        duration: 2000,
+        origin: 'left',
+        distance: '200px'
+      })
+
+      sr.reveal('.about-desc', {
+        duration: 2000,
+        origin: 'right',
+        distance: '200px'
+      })
+
+      sr.reveal('.contentContainer', {
+        duration: 2000,
+        origin: 'top',
+        distance: '200px'
+      })
+
+      sr.reveal('.edu-desc', {
+        duration: 2000,
+        origin: 'center',
+        distance: '200px'
+      })
+
+      sr.reveal('.name' , {
+    		duration: 2800,
+    		origin: 'left',
+        distance: '200px',
+    		viewFactor: 0.8
+    	})
+
+      sr.reveal('#footer-section',  {
+        duration: 2800,
+        origin: 'top',
+        distance: '10px',
+        viewFactor: 0.8
+      });
+
+    </script>
 
 </body>
 

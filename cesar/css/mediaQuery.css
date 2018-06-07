@@ -61,6 +61,11 @@
     text-align: center;
   }
 
+  #education-section .year {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
   /*FOOTER*/
   #footer-section .grid {
     display: grid;
@@ -69,7 +74,7 @@
   }
 
   .big .fa {
-    font-size: 7em;
+    font-size: 4.5em;
     padding-left: 10px;
     padding-right: 10px;
   }
